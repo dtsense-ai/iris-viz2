@@ -1,5 +1,3 @@
-# https://www.youtube.com/watch?v=5i97NL1bYdQ
-
 import streamlit as st
 import pandas as pd
 import plotly.express as px
