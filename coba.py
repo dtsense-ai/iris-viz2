@@ -16,9 +16,9 @@ st.title('Iris Data Analysis')
 
 with st.sidebar:
 	st.markdown('**Pilih Species**')
-	check_setosa = st.checkbox('Iris-setosa')
-	check_versicolor = st.checkbox('Iris-versicolor')
-	check_virginica = st.checkbox('Iris-virginica')
+	check_setosa = st.checkbox('Iris-setosa', value=True)
+	check_versicolor = st.checkbox('Iris-versicolor', value=True)
+	check_virginica = st.checkbox('Iris-virginica', value=True)
 
 	species = []
 	if check_setosa:
