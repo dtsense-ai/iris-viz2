@@ -1,5 +1,6 @@
 # python -m venv env --> bikin environment
-# env\Scripts\activate --> aktivasi environment
+# env\Scripts\activate --> aktivasi environment di Windows atau 
+# source env/bin/activate -> untuk linux / Mac
 # pip install streamlit --> install streamlit
 # streamlit run namafile.py --> running
 
