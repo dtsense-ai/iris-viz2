@@ -1,3 +1,8 @@
+# python -m venv env --> bikin environment
+# env\Scripts\activate --> aktivasi environment
+# pip install streamlit --> install streamlit
+# streamlit run namafile.py --> running
+
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -51,8 +56,3 @@ with col3:
 with col4:
 	fig_scatter = px.scatter(data, x=var1, y=var2, color='Species')
 	st.plotly_chart(fig_scatter, use_container_width=True)
-
-# python -m venv env --> bikin environment
-# env\Scripts\activate --> aktivasi environment
-# pip install streamlit --> install streamlit
-# streamlit run namafile.py --> running
